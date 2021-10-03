@@ -8,7 +8,7 @@ Replace the Project Title
 Bikeshare Data Explorer
 ### Description
 Describe what your project is about and what it does
-
+This project looks at three datasets from three different US cities to give valuable information about user statistics.
 ### Files used
 Include the files used
 
