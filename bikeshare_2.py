@@ -267,8 +267,9 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
+        # Time stats function prints all time statistics the program is capable of
         time_stats(df)
+        # Station stats function prints all station statistics the program is capable of
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
