@@ -264,9 +264,11 @@ def view_data(df):
 
 def main():
     while True:
+        # Uses get_filters function to get information from user to filter data search.
         city, month, day = get_filters()
+        # Loads data that is only necessary from the data filters given.
         df = load_data(city, month, day)
-
+        # Functions that display stats about filtered data
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
