@@ -42,6 +42,7 @@ def get_filters():
     month_input = ""
     # make a list of months to reference
     months = ["january", "february", "march", "april", "may", "june"]
+    # these months are out of range of the dataset
     other_months = ["july", "august", "september", "october", "november", "december"]
     
     while len(month_input) == 0:
